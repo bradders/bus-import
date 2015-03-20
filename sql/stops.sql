@@ -1,0 +1,20 @@
+CREATE TABLE `stops` (
+	id INT(11) PRIMARY KEY AUTO_INCREMENT,
+    stop_id INT(11),
+	stop_name VARCHAR(255),
+	display_name VARCHAR(255),
+	stop_desc VARCHAR(255),
+	stop_lat VARCHAR(255),
+	stop_lon VARCHAR(255),
+	area_id INT(11),
+	zone_id VARCHAR(255),
+	is_main TINYINT(1),
+	stop_url VARCHAR(255),
+	tags VARCHAR(255),
+	created datetime,
+	updated datetime,
+	KEY `stop_id` (stop_id),
+	KEY `zone_id` (zone_id),
+	KEY `stop_lat` (stop_lat),
+	KEY `stop_lon` (stop_lon)
+);

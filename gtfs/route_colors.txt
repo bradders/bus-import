@@ -1,0 +1,10 @@
+route_id, route_color
+1-Whistler,f7931d
+2-Whistler,004b8d
+3-Whistler,8ec640
+5-Whistler,8d143a
+6-Whistler,fec20f
+7-Whistler,b2a97e
+8-Whistler,95b08b
+99-Whistler,002a7b
+100-Whistler,34B233
